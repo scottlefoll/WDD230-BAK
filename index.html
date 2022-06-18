@@ -13,7 +13,6 @@
 
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
-
     <link
       rel="stylesheet"
       type="text/css"
@@ -35,13 +34,13 @@
         <a href="index.html"
           ><img
             class="logo-image"
-            src="scott.jpg"
-            alt="Scott R. LeFoll image"
+            src="srl_2.jpg"
+            alt="Scott LeFoll image"
         /></a>
       </header>
 
       <main>
-        <div class="content2">
+        <div class="home-grid2">
           <h2 class="home-h2-1">WDD 230-13 Assignment Portal</h2>
           <hr class="home-hr-1" />
           <p></p>
@@ -49,36 +48,34 @@
           <ul>
             <li class="home-li-1">
               W01 Lesson 01:
-
-              <a href="index.html">Course Assignment Portal</a>
+              <a
+                href="https://byui.instructure.com/courses/194438/assignments/9121379?module_item_id=25385406"
+                target="_blank"
+                >Course Assignment Portal</a
+              >
             </li>
 
             <li class="home-li-2">
-              W02 Lesson 02:
+              W01 Lesson 02:
               <a
-                href="/design/design-principles.html"
+                href="https://byui.instructure.com/courses/194438/assignments/9121387?module_item_id=25385434"
+                target="_blank"
                 >Design Principles Document</a
               >
             </li>
-            
-            <li class="home-li-3">
-              W02 Lesson 03:
-              <a
-                href="weather/"
-                >Weather</a
-              >
-            </li>
-            
           </ul>
         </div>
         <footer>
           <div class="footer1">
             Ⓒ <span id="c_year"></span>
+            <script>
+              document.write();
+            </script>
             | Scott R. LeFoll | Vermont |
             <a
               href="https://byui.instructure.com/courses/194438/assignments/9121387?module_item_id=25385434"
               target="_blank"
-              ><i class="color-me">BYUI Online Learning</i></a
+              ><i>BYUI Online Learning</i></a
             >
 
             <br /><br />
@@ -89,6 +86,16 @@
         </footer>
       </main>
     </div>
-    <script src="script.js"></script>
   </body>
+
+  <script>
+    let year_text = new Date().getFullYear();
+    document.getElementById("c_year").innerHTML = year_text;
+  </script>
+
+  <script>
+    let text = document.lastModified;
+    document.getElementById("mod-date").innerHTML = text;
+  </script>
 </html>
+

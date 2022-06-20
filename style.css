@@ -291,7 +291,7 @@ p {
 
 
 footer {
-  color: #FFFFFF;
+  color: yellow;
   border-radius: 5px;
   bottom: .5vh;
   height: 3.5rem;
@@ -301,12 +301,13 @@ footer {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  background-image: url('https://cdn.glitch.global/8684185b-acd9-4597-9814-2c7e389ba9d7/2449573.png?v=1654918474732');
+/*   background-image: url('https://cdn.glitch.global/8684185b-acd9-4597-9814-2c7e389ba9d7/2449573.png?v=1654918474732'); */
+  background-color: #2191FB;
 }
 
 header {
   font-family: "Varela Round", Helvetica, Arial, sans-serif;
-  color: white;
+  color: yellow;
   border-radius: 5px;
   height: 6rem;
   max-width: 960px;
@@ -315,7 +316,8 @@ header {
   top: 1vh;
   width: 100%;
   z-index: 97;
-  background-image: url('https://cdn.glitch.global/8684185b-acd9-4597-9814-2c7e389ba9d7/2449573.png?v=1654918474732');
+/*   background-image: url('https://cdn.glitch.global/8684185b-acd9-4597-9814-2c7e389ba9d7/2449573.png?v=1654918474732'); */
+  background-color: #ACCBE1;
 }
 
 .footer1 {

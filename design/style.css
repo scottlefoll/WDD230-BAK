@@ -40,10 +40,10 @@ p {
 
 
 header {
-/* 	background-color: #aaaaaa; */
-  background-image: url("https://cdn.glitch.global/5d4aaed1-8c6a-44bf-b189-aadc18399fb9/ws_Red_Sunset_Ocean_%26_Red_Clouds_852x480.jpg?v=1655229776493");
-  color: yellow;
-  border-radius: 3px;
+	background-color: #ACCBE1;
+/*   	background-image: url("https://cdn.glitch.global/5d4aaed1-8c6a-44bf-b189-aadc18399fb9/ws_Red_Sunset_Ocean_%26_Red_Clouds_852x480.jpg?v=1655229776493"); */
+  	color: yellow;
+  	border-radius: 3px;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -53,8 +53,9 @@ header {
 }
 
 footer {
-	background-color: #aaaaaa;
-  border-radius: 3px;
+	background-color: #2191FB;
+	color: yellow;
+  	border-radius: 3px;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -103,8 +104,8 @@ h2 {
 
 
 nav {
-	background-color: #C32F27;
-  border-radius: 3px;
+	background-color: #2191FB;
+  	border-radius: 3px;
 	margin: 0 auto;
 	max-width: 780px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
@@ -115,10 +116,10 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-/* 	color: #ffffff; */
-/*   color: #F7B538; */
-  color: yellow;
-/*   color: #DB3F25; */
+	/* 	color: #ffffff; */
+	/*   color: #F7B538; */
+  	color: yellow;
+	/*   color: #DB3F25; */
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;

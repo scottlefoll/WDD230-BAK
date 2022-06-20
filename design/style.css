@@ -67,8 +67,8 @@ footer {
 body {
 	font-size: .45rem;
 	font-family: "Montserrat", "Sansita", Ubuntu, sans-serif;
-  background-image: url("paper.gif");
-  background-color: #cccccc;
+  	background-image: url("paper.gif");
+  	background-color: #cccccc;
   }
 
 header,
@@ -79,26 +79,23 @@ footer {
 }
 h1 {
 	font-size: .9rem;
-/*   color: #0091ea; */
-/*   color: #C32F27; */
-  color: yellow;
-  font-weight: 700;
-  text-align: center;
+	color: yellow;
+  	font-weight: 700;
+  	text-align: center;
 }
 h2 {
 	color: #536878;
 }
 
 .home-logo-demo {
-  width: 4rem;
-  height: 4rem;
+  	width: 4rem;
+  	height: 4rem;
 }
 
 .home-logo {
-  width: 4rem;
-  height: 4rem;
-/*   position: relative; */
-  left: .8rem;
+  	width: 4rem;
+  	height: 4rem;
+  	left: .8rem;
 }
 
 
@@ -116,10 +113,7 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-	/* 	color: #ffffff; */
-	/*   color: #F7B538; */
   	color: yellow;
-	/*   color: #DB3F25; */
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
@@ -152,8 +146,8 @@ main picture {
 
 
 footer p {
-  background-color: #C32F27;
-  color: #F7B538;
+  	background-color: #2191FB;
+  	color: yellow;
 	padding: 0.5rem;
 	display: flex;
 	flex-direction: column;
@@ -167,10 +161,10 @@ footer p {
 		font-size: 1.5rem;
 	}
 
-  body {
+  	body {
 	font-size: .75rem;
 	font-family: "Montserrat", "Sansita", Ubuntu, sans-serif;
-  }
+  	}
 
 	/* Horizontal Menu Examples */
 	/* Flex *********************/
@@ -215,13 +209,10 @@ footer p {
 
 	footer p {
 		flex-direction: row;
-    background-color: #C32F27;
-    color: #F7B538;
 	}
 
 	footer p span:not(:last-child)::after {
 		content: " 🌧️\00a0";
-    background-color: #C32F27;
 	}
 }
 
@@ -244,9 +235,5 @@ footer p {
 	}
 	article:nth-child(3) {
 		grid-column: span 1;
-	}
-  footer {
-  background-color: #C32F27;
-  color: #F7B538;
 	}
 }

@@ -47,6 +47,10 @@ body {
   margin: 0 auto;
 }
 
+.content2 {
+  margin-left: 2rem;
+}
+
 h2 {
   color: black;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -290,7 +294,8 @@ p {
 
 
 footer {
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
+  color: yellow;
   border-radius: 5px;
   bottom: .5vh;
   height: 3.5rem;
@@ -300,12 +305,14 @@ footer {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  background-image: url('https://cdn.glitch.global/8684185b-acd9-4597-9814-2c7e389ba9d7/2449573.png?v=1654918474732');
+  /* background-image: url('https://cdn.glitch.global/8684185b-acd9-4597-9814-2c7e389ba9d7/2449573.png?v=1654918474732'); */
+  background-color: #2191FB;
 }
 
 header {
   font-family: "Varela Round", Helvetica, Arial, sans-serif;
-  color: white;
+  /* color: white; */
+  color: yellow;
   border-radius: 5px;
   height: 6rem;
   max-width: 960px;
@@ -314,11 +321,13 @@ header {
   top: 1vh;
   width: 100%;
   z-index: 97;
-  background-image: url('https://cdn.glitch.global/8684185b-acd9-4597-9814-2c7e389ba9d7/2449573.png?v=1654918474732');
+  /* background-image: url('https://cdn.glitch.global/8684185b-acd9-4597-9814-2c7e389ba9d7/2449573.png?v=1654918474732'); */
+  background-color: #2191FB;
 }
 
 .footer1 {
   bottom: -1vmin;
+  color: yellow;
 /*   padding-top: 8px; */
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 2vmin;
@@ -333,6 +342,7 @@ header {
 
 .footer2 {
   bottom: 1.5vmin;
+  color: yellow;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 1.5vmin;
   font-style: normal;
@@ -346,6 +356,7 @@ header {
 
 .design-footer2 {
   color: white;
+  color: yellow;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 1.5vmin;
   font-style: normal;
@@ -357,6 +368,7 @@ header {
 
 .design-footer1 {
   color: white;
+  color: yellow;
   bottom: 5vmin;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 2vmin;
@@ -452,6 +464,32 @@ h4 {
   top: -9vh;
 }
 
+.home-li-3 {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 1.75vmin;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  left: 1.5vw;
+  position: relative;
+  text-align: left;
+  top: -8vh;
+}
+
+.home-li-4 {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 1.75vmin;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  left: 1.5vw;
+  position: relative;
+  text-align: left;
+  top: -7vh;
+}
+
 img {
   max-width: 100%;
 }
@@ -473,11 +511,6 @@ main {
   color: black;
 /*   margin: 0 auto; */
 }
-
-/* .mySlides {
-    color: white;
-}
- */
 
 
 ul {
@@ -631,3 +664,6 @@ ul li {
     }
   }
     
+
+
+/* ********************************* */
